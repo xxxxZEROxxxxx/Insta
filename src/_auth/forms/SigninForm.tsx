@@ -41,6 +41,9 @@ const SigninForm = () => {
   return (
    
        <Form {...form}>
+        <div className="sm:w-420 flex items-center justify-center flex-col">
+<img src="/assets/imaga\es" alt="" />
+        </div>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
         <FormField
           control={form.control}
